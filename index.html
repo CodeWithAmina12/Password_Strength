@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>password_Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        
+    <div class="icon"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield-lock preview-icon"><path d="M20 9.807V6a1 1 0 00-1-1c-2 0-4.49-1.19-6.24-2.72a1.17 1.17 0 00-1.52 0C9.5 3.8 7 5 5 5a1 1 0 00-1 1v7c0 3.88 2.107 6.254 5 7.796"/><path d="M19 17v-2a2 2 0 00-4 0v2"/><rect x="13" y="17" width="8" height="5" rx="1"/></svg></div>
+           <div class="Subtitle">
+    <h2 >Password Strength Checker</h2>
+            <p >create a strong password to keep your account secure</p></div>
+            <label for="password"> Your-Password</label>
+            <div class="input">
+                <input type="password" id="pass" placeholder="Enter password" autocomplete="new-password">
+                <button id="toggle" type="button">Show</button>
+            </div>
+            <div class="bars">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <h3 id="Requirenments">password Requirenments</h3>
+            <div class="rule" id="length">
+                <span class="check"></span>
+                At least 8 character
+            </div>
+            <div class="rule" id="upper">
+                <span class="check"></span>
+                one uppper case
+            </div>
+            <div class="rule" id="number">
+                <span class="check"></span>
+                at least one number added 
+            </div>
+            <div class="rule" id="special">
+                <span class="check"></span>
+                one special character included 
+            </div>
+<div class="note">
+    Tip: use a mixture of letter , number and special character 🌷🌺
+</div>
+        </div>
+    <script src="Password_Tracker.js"></script>
+</body>
+</html>
